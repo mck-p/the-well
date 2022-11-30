@@ -1,0 +1,54 @@
+{
+  "name": "the-well-v1",
+  "description": "The first version of The Well's website using Ghost CMS",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build::assets": "gulp"
+  },
+  "author": {
+    "email": "tim@mck-p.com",
+    "name": "Tim Roberts"
+  },
+  "screenshots": {},
+  "keywords": [
+    "ghost-theme"
+  ],
+  "config": {
+    "posts_per_page": 10,
+    "image_sizes": {},
+    "card_assets": true,
+    "custom": {}
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/gulp": "^4.0.10",
+    "@types/gulp-postcss": "^8.0.2",
+    "@types/postcss-import": "^14.0.0",
+    "@types/postcss-preset-env": "^7.7.0",
+    "@types/webpack-stream": "^3.2.12",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.0",
+    "core-js": "^3.26.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "pino": "^8.7.0",
+    "postcss": "^8.4.19",
+    "postcss-import": "^15.0.0",
+    "postcss-preset-env": "^7.8.3",
+    "ts-loader": "^9.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "webpack": "^5.75.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "browserslist": [
+    ">0.25%",
+    "last 2 versions"
+  ]
+}

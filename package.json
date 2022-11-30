@@ -1,0 +1,20 @@
+{
+  "name": "@mck-p/the-well",
+  "version": "1.0.0",
+  "description": "Source code for The Well's website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ghost": "./node_modules/ghost-cli/bin/ghost",
+    "ghost::start": "npm run ghost start -- -d ghost-local ",
+    "ghost::stop": "npm run ghost stop -- -d ghost-local",
+    "ghost::restart": "npm run ghost restart -- -d ghost-local",
+    "gscan": "node ./node_modules/gscan/bin/cli.js",
+    "gscan::theme": "npm run gscan -- \"./ghost-local/content/themes/${npm_config_theme_name}\""
+  },
+  "author": "Tim Roberts <tin@mck-p.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ghost-cli": "^1.23.1",
+    "gscan": "^4.34.0"
+  }
+}
